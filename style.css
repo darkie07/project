@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(https://neurosciencenews.com/files/2023/12/caffeine-decision-making-neurosince.jpg.webp);
+    color: aliceblue;
+}
+:root {
+    
+  
+    --second-bg-color: #8a4015;
+    --text-color: #ededed;
+    --main-color: #f09c00;
+
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+a{
+    color: aliceblue;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    justify-content: space-around;
+    background: transparent;
+    display: flex;
+    text-align: center;
+    z-index: 100%;
+
+}
+.logo{
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 1.6rem;
+    color: var(--text-color);
+    font-weight: 700;
+    margin-left: 3.5rem;
+    transition: 1s;
+
+
+}
+.navbar a:hover, .navbar a:active{
+    color: var(--main-color);
+}
+#menu-icon{
+    
+}
